@@ -3,6 +3,7 @@
 /*
  *  Функция реализующая считывание файла с консоли
  */
+require_once('assertComponent.php');
 
 function readFromConsole($message = '', $arg = null) // если режим считывания
 {
@@ -37,5 +38,18 @@ function readFromConsole($message = '', $arg = null) // если режим сч
     }
 
     return (string)$arg;
+}
+
+function readFromConsole_TEST() {
+    assertComponent(true,readFromConsole('','true'), "readFromConsole('','true') = true ");
+    assertComponent(false,readFromConsole('','false'), "readFromConsole('','false') = false ");
+    assertComponent(null,readFromConsole('','!stop'), "readFromConsole('','!stop') = null ");
+    assertComponent(1.3,readFromConsole('','1.3'), "readFromConsole('','1.3') = 1.3 ");
+    assertComponent(1,readFromConsole('','1'), "readFromConsole('','1') = 1 ");
+    assertComponent('test',readFromConsole('','test'), "readFromConsole('','test') = test ");
+}
+
+if($argv[1] == 'test') {
+    readFromConsole_TEST();
 }
 

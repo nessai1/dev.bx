@@ -1,0 +1,151 @@
+@font-face {
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+  src: url(fonts/HelveticaNeue-Roman.otf);
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  font-weight: 700;
+  src: url(fonts/HelveticaNeue-Bold.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #0065F2;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.content {
+  width: 100%;
+}
+.content_head {
+  background: rgba(0, 101, 242, 0.12);
+  border-bottom: 1px solid rgba(37, 124, 244, 0.4);
+}
+
+.row {
+  margin: 0 auto;
+  padding: 60px 165px;
+  width: 1500px;
+  overflow: hidden;
+}
+.row_desc {
+  padding-top: 40px;
+}
+
+.mainText {
+  text-align: center;
+  width: 540px;
+  margin: 0 auto;
+}
+.mainText__title {
+  line-height: 48px;
+  letter-spacing: -0.5px;
+  font-weight: 700;
+  font-size: 40px;
+}
+.mainText__title_large {
+  letter-spacing: -1px;
+  line-height: 60px;
+  font-size: 56px;
+}
+.mainText__desc {
+  line-height: 28px;
+  margin-top: 24px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.logos {
+  text-align: center;
+  width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.logos__item {
+  margin-left: 34.57px;
+  vertical-align: middle;
+}
+.logos__item:first-child {
+  margin-left: 0px;
+}
+
+.mainText_left {
+  margin-left: 0;
+  text-align: left;
+  width: 445px;
+}
+
+.leftContent {
+  float: left;
+  padding-top: 40px;
+}
+.leftContent__link {
+  display: block;
+  margin-top: 43px;
+}
+
+.rightContent {
+  float: right;
+  width: 555px;
+  height: 380px;
+  background: url("img/lines.png");
+}
+
+.descTitle {
+  line-height: 32px;
+  font-size: 24px;
+  letter-spacing: -0.1px;
+}
+
+.descBlock {
+  margin-top: 16px;
+  width: 1110px;
+}
+.descBlock_firstItem {
+  margin-top: 40px;
+}
+.descBlock__title {
+  font-size: 18px;
+  line-height: 28px;
+}
+.descBlock__text {
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.descParagraph {
+  margin-top: 26px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+.descCases {
+  width: 1110px;
+  margin-top: 26px;
+  margin-left: 12px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+.descCases li {
+  margin-top: 8px;
+}
+
+/*# sourceMappingURL=style.css.map */
