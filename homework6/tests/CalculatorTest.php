@@ -5,14 +5,14 @@ require_once (__DIR__ . '/../lib/Calculator.php');
 
 class CalculatorTest extends TestCase
 {
-	public function testAdd() : void
-	{
-		$calculator = new Calculator();
+    public function testAdd() : void
+    {
+        $calculator = new Calculator();
 
-		self::assertEquals(4, $calculator->add(2, 2));
-		self::assertEquals(-4, $calculator->add(0,-4));
-		self::assertEquals(0,$calculator->add(0,0));
-	}
+        self::assertEquals(4, $calculator->add(2, 2));
+        self::assertEquals(-4, $calculator->add(0,-4));
+        self::assertEquals(0,$calculator->add(0,0));
+    }
 
 	public function testSubtract() : void
     {
