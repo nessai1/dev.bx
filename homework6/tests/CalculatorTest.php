@@ -14,7 +14,7 @@ class CalculatorTest extends TestCase
         self::assertEquals(0,$calculator->add(0,0));
     }
 
-	public function testSubtract() : void
+    public function testSubtract() : void
     {
         $calculator = new Calculator();
 
