@@ -23,7 +23,7 @@ function readFromConsole($message = '', $arg = null) // если режим сч
         return false;
     }
 
-    if ($arg[0] === '!') {
+    if ($arg[0] === '!stop') {
         return null;
     }
 
