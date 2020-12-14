@@ -13,5 +13,4 @@ class CircleTest extends TestCase
         $circle->draw();
     }
 
-
 }

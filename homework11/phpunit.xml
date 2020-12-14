@@ -12,9 +12,13 @@
 	</coverage>
 
 	<testsuites>
-		<testsuite name="tests">
+		<testsuite name="FactoryTests">
 			<directory suffix="Test.php">./tests/FactoryTask/FactoryTest</directory>
 			<directory suffix="Test.php">./tests/FactoryTask</directory>
+		</testsuite>
+		<testsuite name="DecoratorTests">
+			<directory suffix="Test.php">./tests/DecoratorTask/ShapeTest</directory>
+			<directory suffix="Test.php">./tests/DecoratorTask/DecoratorTest</directory>
 		</testsuite>
 	</testsuites>
 
